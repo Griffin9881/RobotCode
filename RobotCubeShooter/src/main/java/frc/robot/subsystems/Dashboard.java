@@ -7,7 +7,7 @@ import edu.wpi.first.wpilibj.smartdashboard.Field2d;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class Dashboard extends SubsystemBase{
-    private CubeShooter cubeShooter = CubeShooter.getInstance();
+    private BallShooter cubeShooter = BallShooter.getInstance();
     
     private final ShuffleboardTab driversTab = Shuffleboard.getTab("Drivers");
     private final ShuffleboardTab controlsTab = Shuffleboard.getTab("Controls");
